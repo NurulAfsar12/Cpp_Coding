@@ -1,0 +1,33 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int main()
+{
+    int t;
+    cin >> t;
+    while (t--)
+    {
+        int n;
+        cin >> n;
+        vector<int> v(n);
+        for (int i = 0; i < n; i++)
+        {
+            cin >> v[i];
+        }
+        int cnt = 0;
+        int cnt1 = 0;
+        for (int i = 0; i < n; i++)
+        {
+            if (v[i] < 2)
+            {
+                cnt1++;
+            }
+            else
+            {
+                cnt++;
+            }
+        }
+        cout << cnt + (cnt1 + 1) / 2 << endl;
+    }
+    return 0;
+}

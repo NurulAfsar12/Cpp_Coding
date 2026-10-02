@@ -1,0 +1,4 @@
+w1 = 0.1
+w2 = 0.1
+bias = -0.1
+Prediction = 1

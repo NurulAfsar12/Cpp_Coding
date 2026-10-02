@@ -1,0 +1,20 @@
+# Compiled binaries / build artifacts
+*.exe
+*.o
+*.obj
+*.a
+*.lib
+*.dll
+*.so
+*.out
+*.gch
+
+# IDE / editor settings
+.vscode/
+.cph/
+.idea/
+*.swp
+
+# OS files
+.DS_Store
+Thumbs.db
