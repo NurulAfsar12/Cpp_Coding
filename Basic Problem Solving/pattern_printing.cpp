@@ -8,13 +8,14 @@ int main()
     
     int n;
     cin >> n;
+
     for(int i=0; i<n; i++)
     {
-        for(int j=i+1; j>=1; j--)
+        for(char c = 'A' + i; c>='A'; c--)
         {
-            cout <<j<<" ";
+            cout <<c<<" ";
         }
-        cout <<endl;
+        cout <<"\n";
     }
     return 0;
 }
