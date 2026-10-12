@@ -1,2 +1,1 @@
-Sum = 15
-Sum = 55
+Factorial = 24
