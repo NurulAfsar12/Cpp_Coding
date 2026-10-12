@@ -1,1 +1,1 @@
-Factorial = 24
+Sum = 16
