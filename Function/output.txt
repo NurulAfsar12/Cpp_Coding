@@ -1,1 +1,1 @@
-nCr = 20
+Not Prime
